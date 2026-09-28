@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mcp-polygon-renderer"
+version = "0.1.0"
+description = "Servidor MCP para que IAs poligonizen imagenes con OpenCV"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=2.2.0",
+    "opencv-python>=4.8.0",
+    "numpy>=1.24.0",
+]
+
+[project.scripts]
+mcp-polygon-renderer = "mcp_polygon_renderer.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcp_polygon_renderer"]
