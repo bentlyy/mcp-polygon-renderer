@@ -98,25 +98,6 @@ pip install -e .
    → Recibe: imagen coloreada + número de regiones detectadas
 ```
 
-## Imágenes de prueba
-
-Prompts para generar imágenes de prueba con cualquier IA generadora de imágenes:
-
-**1. Diagrama con regiones delimitadas (para `detectar_regiones`):**
-```
-A top-down map of a neighborhood with 15 irregularly shaped zones separated by bright orange lines on a dark background. Each zone is a solid dark gray color. Clean vector style, high contrast, no text.
-```
-
-**2. Formas geométricas simples (para `renderizar_poligonos`):**
-```
-Six geometric shapes on a dark background: a circle, a triangle, a pentagon, an irregular hexagon, a star, and a rectangle. All shapes are light gray with no outlines, evenly spaced, flat 2D style, no shadows.
-```
-
-**3. Objeto con subdivisiones internas (para modo grilla):**
-```
-A side view of a fish with 20 internal sections separated by thin orange lines on a black silhouette. The fish faces left. Clean diagram style, dark background, no text, no scales texture.
-```
-
 ## Ejemplos
 
 ### Cortes de carne (35 regiones detectadas)
