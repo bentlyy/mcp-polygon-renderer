@@ -129,6 +129,18 @@ puntos_circulo = [
 poligonos = [{"id": "Circulo", "puntos": puntos_circulo}]
 ```
 
+## Pruebas visuales
+
+### 6 formas geométricas detectadas y coloreadas
+
+![Formas originales](figuras.png)
+![Formas coloreadas](salida/figuras_coloreadas.png)
+
+### 16 regiones de mapa detectadas y coloreadas
+
+![Mapa original](mapa.png)
+![Mapa coloreado](salida/imagen_coloreada.png)
+
 ## Características
 
 - **Optimizado para agentes**: sin ventanas emergentes, todo se guarda en disco
